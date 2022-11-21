@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&family=Noto+Sans:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Name & Guess</title>
+  </head>
+  <body>
+    <header>
+      <h1>Name & Guess</h1>
+    </header>
+    <main class="mainA">
+      <div class="center">
+        <label for="name">Name</label>
+        <input id="name" name="name" placeholder="Enter A Name" />
+        <button id="button">Submit</button>
+        <div class="first">
+          <h3 class="gender">Gender:</h3>
+          <p class="genderP"></p>
+        </div>
+        <div class="second">
+          <h3 class="age">Age:</h3>
+          <p class="ageP"></p>
+        </div>
+        <div class="third">
+          <h3 class="country">country:</h3>
+          <div class="flagCard">
+          </div>
+        </div>
+      </div>
+      <div class="searchedNames">
+        <h3>Guessed Names</h3>
+      </div>
+      <script src="./Api.js"></script>
+    </main>
+  </body>
+</html>
